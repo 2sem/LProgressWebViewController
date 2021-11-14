@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ProgressWebViewController.podspec' to ensure this is a
+# Be sure to run `pod lib lint LProgressWebViewController.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ProgressWebViewController'
-  s.version          = '2.0.0'
+  s.name             = 'LProgressWebViewController'
+  s.version          = '2.0.1'
   s.summary          = 'A WebViewController implemented by WKWebView with a progress bar in the navigation bar'
 
 # This description is used to generate tags and improve search results.
@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A WebViewController implemented by WKWebView with a progress bar in the navigation bar. The WebViewController is safari-like web browser.'
+  s.description      = 'A WebViewController implemented by WKWebView with a progress bar in the navigation bar. The WebViewController is safari-like web browser. this is fork of ProgressWebViewController'
 
-  s.homepage         = 'https://github.com/kf99916/ProgressWebViewController'
+  s.homepage         = 'https://github.com/2sem/LProgressWebViewController'
   s.screenshots      = 'https://raw.githubusercontent.com/kf99916/ProgressWebViewController/master/screenshots/progressWebViewController.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Zheng-Xiang Ke' => 'kf99916@gmail.com' }
-  s.source           = { :git => 'https://github.com/kf99916/ProgressWebViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'leesam' => 'toyboy2@hanmail.net' }
+  s.source           = { :git => 'https://github.com/2sem/LProgressWebViewController.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.linkedin.com/in/gamehelper/'
 
   s.ios.deployment_target = '9.0'
 
