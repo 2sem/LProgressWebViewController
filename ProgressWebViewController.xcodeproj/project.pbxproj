@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9C4D402B0DB30500215734 /* LProgressWebViewController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C4D3F2B0DB30500215734 /* LProgressWebViewController.podspec */; };
 		AA28A1B31F91C84600B67E53 /* ProgressWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA28A1B11F91C84600B67E53 /* ProgressWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA28A1C01F91C86700B67E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28A1BF1F91C86700B67E53 /* AppDelegate.swift */; };
 		AA28A1C21F91C86700B67E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28A1C11F91C86700B67E53 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C9C4D3F2B0DB30500215734 /* LProgressWebViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LProgressWebViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA28A1AE1F91C84600B67E53 /* ProgressWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA28A1B11F91C84600B67E53 /* ProgressWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressWebViewController.h; sourceTree = "<group>"; };
 		AA28A1B21F91C84600B67E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		AA28A1A41F91C84500B67E53 = {
 			isa = PBXGroup;
 			children = (
+				2C9C4D3F2B0DB30500215734 /* LProgressWebViewController.podspec */,
 				AA28A1B01F91C84600B67E53 /* ProgressWebViewController */,
 				AA28A1BE1F91C86700B67E53 /* ProgressWebViewControllerDemo */,
 				AA28A1AF1F91C84600B67E53 /* Products */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9C4D402B0DB30500215734 /* LProgressWebViewController.podspec in Resources */,
 				AA28A1DA1F91FF7A00B67E53 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

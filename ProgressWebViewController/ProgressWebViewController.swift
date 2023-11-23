@@ -95,7 +95,7 @@ open class ProgressWebViewController: UIViewController {
     open var rightNavigaionBarItemTypes: [BarButtonItemType] = []
     open var toolbarItemTypes: [BarButtonItemType] = [.back, .forward, .reload, .activity]
     
-    fileprivate var webView: WKWebView?
+    open var webView: WKWebView?
     
     fileprivate var previousNavigationBarState: (tintColor: UIColor?, hidden: Bool) = (nil, false)
     fileprivate var previousToolbarState: (tintColor: UIColor?, hidden: Bool) = (nil, true)
